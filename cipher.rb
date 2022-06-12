@@ -8,6 +8,4 @@ def caesar_cipher(to_code, shift)
   transformed.map(&:chr).join
 end
 
-
 puts caesar_cipher('siema', 5)
-
